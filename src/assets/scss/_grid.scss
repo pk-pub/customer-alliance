@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  background-color: #eaeaea;
+  max-width: 980px;
+  min-width: 320px;
+}
+
+.row {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  text-align: left;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  margin: 0.3rem;
+  padding: 0.3rem;
+
+}
+
+.col-1 {
+  max-width: calc(100% / 12);
+}
+.col-2 {
+  max-width: calc(100% / 12 * 2);
+}
+.col-3 {
+  max-width: calc(100% / 12 * 3);
+}
+.col-4 {
+  max-width: calc(100% / 12 * 4);
+}
+.col-5 {
+  max-width: calc(100% / 12 * 5);
+}
+.col-6 {
+  max-width: calc(100% / 12 * 6);
+}

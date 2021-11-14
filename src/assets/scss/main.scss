@@ -1,0 +1,23 @@
+@import "grid";
+@import "reset";
+
+body {
+  background-color: #f1f1f1;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+  max-width: 980px;
+  min-width: 320px;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.input-text {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #BBBBBB;
+  width: 75%;
+}
