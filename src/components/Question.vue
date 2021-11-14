@@ -39,6 +39,7 @@
         color: #3b62b2;
     }
     .index {
+        font-size: 16pt;
         font-weight: bold;
         color: #3b62b2;
     }
